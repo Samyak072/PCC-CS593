@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 import java.util.InputMismatchException;
 public class InputMismatch {
     public static void main(String [] args){

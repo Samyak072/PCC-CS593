@@ -34,15 +34,12 @@ class Frame implements ActionListener {
 		csbs.setForeground(Color.BLUE);
 		cseCount.setForeground(Color.BLACK);
 		csbsCount.setForeground(Color.BLACK);
-
-
 		GUI.add(cse);
 		GUI.add(cseCount);
 		GUI.add(csbs);
 		GUI.add(csbsCount);
 		GUI.add(btn);
 		GUI.add(result);
-		
 		GUI.setLayout(new FlowLayout());
 		GUI.setSize(500,500);
 		GUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

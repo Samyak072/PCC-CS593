@@ -1,3 +1,7 @@
+/*The centre of a circle is given as A(x1,y1) and B is a point on its circumference and B(x2,y2). The program will take 2 values as input A and B . there will be a distance function which will take A,B from user . 
+NOW WAP in java that will calculate the distance between the points and will print it.
+*/
+
 import java.util.Scanner;
 public class DistanceCalculator {
     public static double calculateDistance(double x1, double y1, double x2, double y2) {
